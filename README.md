@@ -1,16 +1,18 @@
-BACKGROUND
+**BACKGROUND**
 
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modelling, data engineering, and data analysis, respectively.
 
 
-DATA MODELLING
+**DATA MODELLING**
 
-Inspect the CSV files, and then sketch an ERD of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site..
+Inspect the CSV files, and then sketch an ERD of the tables. To create the sketch, feel free to use a tool like QuickDBDLinks to an external site.
+
+![image](https://github.com/afadilla13/sql-challenge/assets/128363337/388c26ad-b699-46d8-8d97-eafbbacb7b4f)
 
 
-DATA ENGINEERING
+**DATA ENGINEERING**
 
 Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
@@ -23,7 +25,7 @@ Be sure to create the tables in the correct order to handle the foreign keys.
 Import each CSV file into its corresponding SQL table.
 
 
-DATA ANALYSIS
+**DATA ANALYSIS**
 
 List the employee number, last name, first name, sex, and salary of each employee.
 
@@ -40,3 +42,5 @@ List each employee in the Sales department, including their employee number, las
 List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
 
 List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+Shoutout to Alplky for the codes that I referred to. 
